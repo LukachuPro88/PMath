@@ -20,6 +20,7 @@ Before writing code, keep our core layout strategies in mind:
 
 ### 1. Code Style Guidelines
 
+- **General Style:** When in doubt, follow the patterns already established in the codebase — consistency across the library is a priority.
 - **Naming Conventions:** All public structs, functions, macros, and global variables must be explicitly prefixed with `PM_` or `pm_` to prevent namespace collisions in external applications.
 - **Function Documentation:** Every new function definition must be preceded by a clean Doxygen-style comment block outlining its behavior, parameter specs, and return attributes:
 
